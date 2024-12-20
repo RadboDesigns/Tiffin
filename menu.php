@@ -2,7 +2,10 @@
  include('includes/header.php');
  include('includes/navbar.php');
  
+ 
  ?>
+
+
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/menu-banner.jpg)">
 	
@@ -21,27 +24,35 @@
 	<!-- Restaurant Section -->
     
     <section class="restaurant-section md-5">
-		
-		<div class="icon-layer-two" style="background-image: url(images/gif/clipart-4.png); opacity: 0.3;"></div>
-		<div class="auto-container">
-			<div class="inner-container">
-				<div class="image">
-					<img src="images/resource/menu-banner.jpg" alt="" />
-				</div>
-				<div class="opening-box" style="background-image: url(images/resource/restaurant-1.jpg)">
-					<div class="box-inner">
-						<h3>Opening <span>Hours</span></h3>
-						<ul class="timing-list">
-							<li>Sat & Sun<span>10AM - 11PM</span></li>
-							<li>Mon - Thur<span>11AM - 11PM</span></li>
-						</ul>
-						
-					</div>
-				</div>
-				<!-- <div class="pattern-layer" style="background-image: url(images/gif/clipart-4.png);"></div> -->
-			</div>
-		</div>
-	</section>
+    <div class="icon-layer-two" style="background-image: url(images/gif/clipart-4.png); opacity: 0.3;"></div>
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="image">
+                <img src="images/resource/menu-banner.jpg" alt="" />
+            </div>
+            <div class="opening-box" style="background-image: url(images/resource/restaurant-1.jpg)">
+                <div class="box-inner">
+                    <h3>Opening <span>Hours</span></h3>
+                    
+                    <!-- First Timing List -->
+                    <h4 style="color: aliceblue;">The Tiffin Truck - City Center</h4>
+                    <ul class="timing-list">
+                        <li>Sat - Sun<span>10AM - 11PM</span></li>
+                        <li>Mon – Fri<span>11AM - 11PM</span></li>
+                    </ul>
+                    
+                    <!-- Second Timing List -->
+                    <h4 style="color: aliceblue;">The Tiffin Truck - Orchard Park</h4>
+                    <ul class="timing-list">
+                        <li>Mon - Sun<span>12AM - 10:30PM</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 	<!-- End Restaurant Section -->
 
 	<div class="sec-title centered mt-5">

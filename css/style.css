@@ -5620,33 +5620,43 @@ color:tomato;
 	display:block;
 }
 
-.restaurant-section .opening-box .timing-list{
-	position:relative;
-	margin-bottom:15px;
-	border-top:1px solid #ffffff;
-	border-bottom:1px solid #ffffff;
+/* General styles for the timing list */
+.restaurant-section .opening-box .timing-list {
+    position: relative;
+    margin-bottom: 15px;
+    border-top: 1px solid #ffffff; /* Line above */
+    border-bottom: 1px solid #ffffff; /* Line below */
 }
 
-.restaurant-section .opening-box .timing-list li{
-	position:relative;
-	font-size:14px;
-	color:#ffffff;
-	font-weight:700;
-	padding:10px 15px;
-	display:inline-block;
-	text-transform:uppercase;
+/* Style for each list item */
+.restaurant-section .opening-box .timing-list li {
+    position: relative;
+    font-size: 14px;
+    color: #ffffff; /* White text for the day */
+    font-weight: 700;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
-.restaurant-section .opening-box .timing-list li span{
-	position:relative;
-	display:block;
-	color:#f7a392;
-	font-weight:300;
+/* Style for the time span */
+.restaurant-section .opening-box .timing-list li span {
+    position: relative;
+    display: block;
+    color: #f7a392; /* Orange color for timing */
+    font-weight: 300;
 }
 
-.restaurant-section .opening-box .timing-list li:first-child{
-	border-right:1px solid #ffffff;
+/* Separator line between list items */
+.restaurant-section .opening-box .timing-list li:not(:last-child) {
+    border-right: 1px solid #ffffff; /* Separator for multiple timings */
 }
+
+/* Remove the separator line if there's only one list item */
+.restaurant-section .opening-box .timing-list:only-child li {
+    border-right: none; /* No separator for single timing */
+}
+
 
 .restaurant-section .opening-box .closed{
 	position:relative;

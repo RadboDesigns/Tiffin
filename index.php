@@ -16,6 +16,7 @@ include('includes/navbar.php');
 				<div class="button-box video-btn">
 			       <button type="button" class="btn btn-primary book-now-btn"><a href='#' onclick="ft_showbookingwidget('ft_bookingwidget1782');" class="reservation-btn" >Book Now</a></button>
 				   <button type="button" class="btn btn-primary book-now-btn "><a href='https://online.thetiffintruck.co.uk/menu/#' style="color:white;">Order Online</a></button>
+				   <h6 class="theme_color" style="color:#fff;">For Booking at The Tiffin Truck- Orchardpark ,please call us on 01223 481202</h6>
 				   </div>
 				</div>
 				
@@ -47,7 +48,7 @@ include('includes/navbar.php');
 							<h4>Orchard Park</h4>
 							<h6>Unit2-3 Unwin Square Cambridge CB4 2AD.<br>ph - 0122 3481203</h6>
 							<div class="text-left">
-								<button type="button" class="btn btn-primary book-now-btn" onclick="window.location.href='https://online.thetiffintruck.co.uk/menu/#'" style="margin-left: 0;">
+								<button type="button" class="btn btn-primary book-now-btn" onclick="window.location.href='https://orchard.thetiffintruck.co.uk'" style="margin-left: 0;">
 								Order Online
 								</button>
 							</div>
@@ -70,6 +71,7 @@ include('includes/navbar.php');
 <div class="button-box video-btn2">
 			       <button type="button" class="btn btn-primary book-now-btn"><a href='#' onclick="ft_showbookingwidget('ft_bookingwidget1782');" class="reservation-btn" style="color:black;">Book Now</a></button>
 				   <button type="button" class="btn btn-primary book-now-btn"><a href="https://online.thetiffintruck.co.uk/menu/#" class="reservation-btn" style="color:black;">Order Online</a></button>
+
 			    </div>
 </section>
 
@@ -328,6 +330,7 @@ include('includes/navbar.php');
 						
 						
 						<button type="button" class="btn btn-primary book-now-btn book-deal"><a href='#' onclick="ft_showbookingwidget('ft_bookingwidget1782');" class="reservation-btn" style="color:black;">Book Now</a></button>
+
 					</div>
 				</div>
 			</div>

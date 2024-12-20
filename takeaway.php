@@ -29,15 +29,23 @@ include('includes/navbar.php');
 					<img src="images/resource/restaurant.jpg" alt="" />
 				</div>
 				<div class="opening-box" style="background-image: url(images/resource/restaurant-1.jpg)">
-					<div class="box-inner">
-						<h3>Opening <span>Hours</span></h3>
-						<ul class="timing-list">
-							<li>Sat & Sun<span>9AM - 11PM</span></li>
-							<li>Mon - Fri<span>11AM - 11PM</span></li>
-						</ul>
-						
-					</div>
-				</div>
+                <div class="box-inner">
+                    <h3>Opening <span>Hours</span></h3>
+                    
+                    <!-- First Timing List -->
+                    <h4 style="color: aliceblue;">The Tiffin Truck - City Center</h4>
+                    <ul class="timing-list">
+                        <li>Sat - Sun<span>10AM - 11PM</span></li>
+                        <li>Mon – Fri<span>11AM - 11PM</span></li>
+                    </ul>
+                    
+                    <!-- Second Timing List -->
+                    <h4 style="color: aliceblue;">The Tiffin Truck - Orchard Park</h4>
+                    <ul class="timing-list">
+                        <li>Mon - Sun<span>12AM - 10:30PM</span></li>
+                    </ul>
+                </div>
+            </div>
 			</div>
 		</div>
 	</section>
